@@ -3,6 +3,8 @@
 -- Purpose: Test GitHub webhook → Lambda → n8n → LangFlow → Liquibase pipeline
 -- Created: 2025-10-14 22:10:20
 
+--node testing 17:46
+
 USE DATABASE AIX_SHARED_DB;
 USE SCHEMA PUBLIC;
 
