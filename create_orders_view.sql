@@ -1,4 +1,4 @@
--- Safe view creation - should get SAFE rating
+-- 
 USE DATABASE AIX_SHARED_DB;
 USE SCHEMA PUBLIC;
 
@@ -16,4 +16,5 @@ WHERE u.IS_ACTIVE = TRUE
 GROUP BY u.USER_ID, u.USERNAME, u.EMAIL
 ORDER BY TOTAL_SPENT DESC;
 
+--TEST
 COMMENT ON VIEW VW_USER_ORDERS IS 'Summary view of user order statistics';
