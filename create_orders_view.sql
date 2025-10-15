@@ -6,5 +6,3 @@ CREATE OR REPLACE VIEW VW_USER_ORDERS AS
 SELECT * 
 FROM DUMMY u
 
--- git push TEST monitor
-COMMENT ON VIEW VW_USER_ORDERS IS 'Summary view of user order statistics';
