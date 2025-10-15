@@ -16,5 +16,5 @@ WHERE u.IS_ACTIVE = TRUE
 GROUP BY u.USER_ID, u.USERNAME, u.EMAIL
 ORDER BY TOTAL_SPENT DESC;
 
---TEST
+-- push TEST
 COMMENT ON VIEW VW_USER_ORDERS IS 'Summary view of user order statistics';
