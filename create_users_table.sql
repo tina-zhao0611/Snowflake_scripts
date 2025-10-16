@@ -1,4 +1,4 @@
--- Safe table creation
+-- Safe table creation test
 
 CREATE TABLE IF NOT EXISTS  AIX_SHARED_DB.PUBLIC.test_USERS (
     USER_ID NUMBER AUTOINCREMENT PRIMARY KEY,
